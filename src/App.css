@@ -1,0 +1,20 @@
+/* CSS HEX */
+/* --tiffany-blue: #99ddc8ff;
+--pistachio: #95bf74ff;
+--asparagus: #659b5eff;
+--fern-green: #556f44ff;
+--dark-slate-gray: #283f3bff; */
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Hedvig Letters Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #283f3bff;
+}
+
+.footer {}
