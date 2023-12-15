@@ -4,10 +4,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-For each project that is featured in your portfolio, include the following:
 
 * An image of the deployed application (either a short animated GIF or screenshot)
 
@@ -16,3 +13,44 @@ For each project that is featured in your portfolio, include the following:
 * A link to the deployed application
 
 * A link to the corresponding GitHub repository
+
+
+## Description
+Holly Thompson's Full Stack Developer portfolio, a beginning portfolio that I plan to add to over the next few weeks while I refine this and start searching for employment.
+
+## Table of Contents
+* [Description](#description)
+* [Usage](#usage)
+* [Tech Featured](#tech)
+* [Preview](#preview)
+* [Deployment](#deployment)
+* [Credits](#credits)
+
+## Usage
+Access the web application here: [Netlify]()
+
+Future employers will view the porftlio and see all of my early work, and continuing skills as a potential employee. 
+
+
+## Tech Featured
+- Modern [React](https://react.dev/) front-end, built with [Vite](https://vitejs.dev/), using React Context for storage of global user state.
+- Some [Bootstrap](https://react-bootstrap.netlify.app/) integration to tidy things up a bit.
+- JavaScript to create and help with the funtionality of the page.
+- [Heroku](https://www.netlify.com/) to deploy the app when completed.
+
+## Preview (mock homepage)
+
+![screenshot](https://i.imgur.com/R1wjoCQ.png)
+
+## Deployment
+
+[Github Repository](https://github.com/thompsonholly/hollysportfolio) 
+
+[Netlify](https://gifty-gift-idea-tracker-9346ec5c500d.herokuapp.com/) 
+
+## Credits
+
+
+* Full Time Student at the University of Minnesota Full Stack Coding Bootcamp - [Holly Thompson](https://github.com/thompsonholly)
+
+
