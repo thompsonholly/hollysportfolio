@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
 import Skills from "./pages/Skills.jsx";
-import Works from "./pages/Works.jsx";
+import Projects from "./pages/Projects.jsx";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 import ErrorPage from './pages/ErrorPage.jsx';
@@ -25,8 +25,8 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: 'works',
-        element: <Works />,
+        path: 'projects',
+        element: <Projects />,
       },
       {
         path: 'skills',

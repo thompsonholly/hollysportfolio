@@ -5,6 +5,41 @@
 /* --fern-green: #556f44ff; */
 /* --dark-slate-gray: #283f3bff; */
 
+/* * {
+  margin: 0;
+  padding: 2rem;
+  background-image: url(./assets/lotus.jpg);
+  background-size: cover;
+  max-width: 1280px;
+  min-height: 100vh;
+  text-align: center;
+} */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+  background: rgb(85, 111, 68);
+  background: linear-gradient(158deg, rgba(85, 111, 68, 1) 14%, rgba(149, 191, 116, 1) 26%, rgba(153, 221, 200, 1) 42%, rgba(101, 155, 94, 1) 63%, rgba(40, 63, 59, 1) 78%);
+  background-size: cover;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  color: whitesmoke !important;
+  font-family: 'Montserrat Alternates', sans-serif !important;
+}
+
+.navbar-container {
+  color: whitesmoke;
+  font-weight: 400px;
+
+}
+
+#footer {
+  bottom: 0;
+}
 
 #root {
   max-width: 1280px;
@@ -12,16 +47,37 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  color: whitesmoke;
-  background-color: #283f3bff;
+  color: whitesmoke !important;
+  background-image: url(./assets/lotus.jpg);
   background-size: cover;
-  border: 1px solid white;
-  font-family: 'Montserrat Alternates', sans-serif;
+  /* background-color: #283f3bff; */
+  /* background: rgb(85, 111, 68);
+  background: linear-gradient(158deg, rgba(85, 111, 68, 1) 14%, rgba(149, 191, 116, 1) 26%, rgba(153, 221, 200, 1) 42%, rgba(101, 155, 94, 1) 63%, rgba(40, 63, 59, 1) 78%);
+  background-size: cover; */
 }
 
+nav.navbar .navbar-nav .nav-link.navbar-link {
+  font-weight: bolder;
+  color: whitesmoke;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 25px;
+  opacity: 0.75;
 
+}
 
-.workCardContainer {
+.about-container {
+  background: rgb(85, 111, 68);
+  background: linear-gradient(158deg, rgba(85, 111, 68, 1) 14%, rgba(149, 191, 116, 1) 26%, rgba(153, 221, 200, 1) 42%, rgba(101, 155, 94, 1) 63%, rgba(40, 63, 59, 1) 78%);
+  opacity: 90%;
+  font-weight: bolder;
+  width: 60%;
+  margin-left: 20%;
+  font-size: 20px;
+  color: black
+}
+
+/* .workCardContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -44,8 +100,4 @@
 .li-list {
   display: flex;
 
-}
-
-#footer {
-  bottom: 0;
-}
+} */
