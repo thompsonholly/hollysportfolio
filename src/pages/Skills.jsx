@@ -3,13 +3,14 @@ import "./style.css"
 function Skills() {
   return (
     <section>
-      <h1>Skills and Tech</h1>
+      <div className="skills-title">
+      <h1>Skills and Tech</h1></div>
       <div className="skills-list">
         <div className="li-list">
           <ul >
 
-            <li>html</li>
-            <li>css</li>
+            <li>HTML</li>
+            <li>CSS</li>
             <li>JavaScript</li>
             <li>jQuery</li>
             <li>Bootstrap</li>
@@ -20,7 +21,7 @@ function Skills() {
             <li>Object-Oriented Programming (OOP)</li>
             <li>Express.js</li>
             <li>SQL</li>
-            <li>MySQLt</li>
+            <li>MySQL</li>
             <li>Object-Relational Mapping</li>
             <li>Model-View-Controller (MVC)</li>
             <li>NoSQL</li>

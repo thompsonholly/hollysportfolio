@@ -15,13 +15,6 @@
   text-align: center;
 } */
 
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 75px;
-  background: rgb(85, 111, 68);
-  background: linear-gradient(158deg, rgba(85, 111, 68, 1) 14%, rgba(149, 191, 116, 1) 26%, rgba(153, 221, 200, 1) 42%, rgba(101, 155, 94, 1) 63%, rgba(40, 63, 59, 1) 78%);
-  background-size: cover;
-}
 
 body {
   font-weight: 400;
@@ -50,21 +43,14 @@ body {
   color: whitesmoke !important;
   background-image: url(./assets/lotus.jpg);
   background-size: cover;
+  opacity: 50%;
   /* background-color: #283f3bff; */
   /* background: rgb(85, 111, 68);
   background: linear-gradient(158deg, rgba(85, 111, 68, 1) 14%, rgba(149, 191, 116, 1) 26%, rgba(153, 221, 200, 1) 42%, rgba(101, 155, 94, 1) 63%, rgba(40, 63, 59, 1) 78%);
   background-size: cover; */
 }
 
-nav.navbar .navbar-nav .nav-link.navbar-link {
-  font-weight: bolder;
-  color: whitesmoke;
-  letter-spacing: 0.8px;
-  padding: 0 25px;
-  font-size: 25px;
-  opacity: 0.75;
 
-}
 
 .about-container {
   background: rgb(85, 111, 68);
@@ -77,27 +63,43 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   color: black
 }
 
-/* .workCardContainer {
+.projectCardContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 
 }
 
-.workCard {
+.projectCard {
   width: 18rem;
   margin: 0.5rem;
 }
 
 .skills-list {
-
+  background: linear-gradient(158deg, rgba(85, 111, 68, 1) 14%, rgba(149, 191, 116, 1) 26%, rgba(153, 221, 200, 1) 42%, rgba(101, 155, 94, 1) 63%, rgba(40, 63, 59, 1) 78%);
+  opacity: 90%;
+  background-size: contain;
+  width: fit-content;
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
 }
 
-.li-list {
+.skills-title {
+    background: linear-gradient(158deg, rgba(85, 111, 68, 1) 14%, rgba(149, 191, 116, 1) 26%, rgba(153, 221, 200, 1) 42%, rgba(101, 155, 94, 1) 63%, rgba(40, 63, 59, 1) 78%);
+      opacity: 90%;
+      background-size: contain;
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+      font-weight: bolder;
+}
+
+/* .li-list {
   display: flex;
 
-} */
+}  */

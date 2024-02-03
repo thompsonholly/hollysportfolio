@@ -5,24 +5,28 @@ import Card from 'react-bootstrap/Card';
 
 
 
-function Projectcard({ id, title, img }) {
-  // const workday = workdayImage;
+function ProjectCard({ title, img, techused, description, deployed, gitLink }) {
+
   return (
-    <Card key={id} className='workCard'>
-      <Card.Img key={img} variant="top" src="../assets/workday.png" />
+    <Card className='projectCard'>
+      <Card.Title>{title}</Card.Title>
+      <Card.Img variant="top" src={img} />
       <Card.Body>
-        <Card.Title>{title}</Card.Title>
+
         <Card.Text>
-          A simple calendar app to help the user to schedule each workday per hour of the day.
-          : HTML, CSS, JavaScript, jQuery, day.js
+          {description}
+
         </Card.Text>
+        <Card.Text>{techused}</Card.Text>
+
+
 
       </Card.Body>
-      <button className='deploy-link'><a href="https://thompsonholly.github.io/workdayscheduler2/" target='_blank'>Deployed </a></button>
-      <button className='repo-link' variant='secondary'> <a href="https://github.com/thompsonholly/workdayscheduler2" target='_blank'>Github Repo </a></button>
+      <button className='deploy-link'><a href={deployed} target='_blank'>Deployed </a></button>
+      <button className='repo-link' variant='secondary'> <a href={gitLink} target='_blank'>Github Repo </a></button>
     </Card>
   );
 }
 
-export default Projectcard;
+export default ProjectCard;
 
