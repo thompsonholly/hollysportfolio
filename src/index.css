@@ -1,17 +1,124 @@
+html {
+  color: black;
+}
+
 #root {
   font-family: 'Philosopher', sans-serif;
+  color: black;
+
 }
 
 body {
   /* background-color: #283f3bff; */
   /* background: rgb(85, 111, 68);
   background: linear-gradient(158deg, rgba(85, 111, 68, 1) 14%, rgba(149, 191, 116, 1) 26%, rgba(153, 221, 200, 1) 42%, rgba(101, 155, 94, 1) 63%, rgba(40, 63, 59, 1) 78%); */
-  background-image: url(./assets/starryback.jpg);
+  background-image: url(./assets/blueimg.jpg);
   background-size: cover;
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  color: whitesmoke !important;
+  color: black !important;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  text-align: center;
+}
+
+.header {
+  font-weight: 700;
+}
+
+.about-container {
+  border: black;
+  height: 300px;
+  width: 300px;
+}
+
+.about-box {
+
+  /* margin-left: 300px; */
+  display: flex;
+  flex-direction: row;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  white-space: nowrap;
+}
+.subNav { /* inside of navbar that always needs to be visible */
+height: 55px;
+width:auto;
+display: inline-block;
+position: relative;
+white-space: nowrap;
+padding: 12px;
+}
+
+.my-projects {
+  text-decoration: wavy;
+}
+
+/* Styling the project cards */
+.project-card {
+  height: 100vh;
+  width: 100vh;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10px;
+  display: flex;
+  align-content: space-around;
+  padding: 10px;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.card-body {
+  margin-bottom: -10px;
+}
+
+.tech {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+}
+
+button {
+  width: 125px;
+  height: 50px;
+  background-color: #74EBD5;
+  background-image: linear-gradient(45deg, #74EBD5 0%, #84aff6 100%);
+}
+
+.deploy-link {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
 
 }
 
+.repo-link {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.skills-title {
+  text-align: center;
+}
+
+.skills-list {
+  text-align: center;
+}
+
+.li-list {
+  text-align: center;
+}
+
+Nav.ul {
+  text-align: center;
+}

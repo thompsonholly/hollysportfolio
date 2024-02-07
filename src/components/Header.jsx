@@ -6,9 +6,9 @@ export default function Header() {
 
   return (
     <header>
-
-      <h1 >Holly Thompson</h1>
       <Navbar />
+      <h1 className='header text-center'>Holly Thompson</h1>
+
     </header>
 
   );

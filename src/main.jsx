@@ -1,4 +1,4 @@
-import React from 'react'
+import { React } from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx'
@@ -12,6 +12,9 @@ import Projects from "./pages/Projects.jsx";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 import ErrorPage from './pages/ErrorPage.jsx';
+// working on hamburger nav menu 
+// import { BrowserRouter as Router } from 'react-router-dom';
+// import {Route, Switch } from 'react-router-dom'
 
 
 // Define the accessible routes, and which components respond to which URL
