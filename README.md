@@ -46,7 +46,7 @@ Future employers will view the portfolio and see all of my early work, and conti
 
 [Github Repository](https://github.com/thompsonholly/hollysportfolio) 
 
-[Deployed Page] 
+[Netlify Deployed Page](https://main--hollysportfolio.netlify.app/)
 
 ## Credits
 
