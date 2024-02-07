@@ -8,7 +8,7 @@ export default function Nav({ links }) {
     <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
         <div className="container-fluid">
           
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="navbar-links ms-auto" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
             {links.map((link) => link)}
           </ul>
