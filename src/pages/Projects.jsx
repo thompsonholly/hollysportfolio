@@ -1,9 +1,13 @@
-import "./style.css"
-import Projectcard from "../components/ProjectCard"
+import '../App.css'
+// import Projectcard from "../components/ProjectCard";
+import CarouselProjectCard from '../components/CarouselProjectCard';
 import workdayImage from '../assets/workday.png';
-import Card from 'react-bootstrap/Card';
+import petSpaceImage from '../assets/petspace.png';
+import giftyImage from '../assets/gifty.png';
+import svgImage from '../assets/svglogo.png';
 
-function projectCard() {
+
+function carouselProjects() {
   const projects = [
     {
       id: 1,
@@ -18,8 +22,8 @@ function projectCard() {
       id: 2,
       title: 'Gifty',
       description: "An app created to store a list of friends and relatives containing their respective interests, likes and a list compiled of gift ideas to buy them for a special occasion.",
-      // techused: [],
-      img: "",
+      techused: ['MongoDB', 'React + Vite', 'Bootstrap', 'Javascript', 'Trello', 'Canva', 'Heroku'],
+      img: giftyImage,
       deployed: "https://gifty-gift-idea-tracker-9346ec5c500d.herokuapp.com/", // heroku deployed
       gitlink: "https://github.com/timpyjoe/Gift-idea-tracker" //link to files in gh
     },
@@ -27,17 +31,17 @@ function projectCard() {
       id: 3,
       title: 'Logo Generator',
       description: "A backend app to create an SVG image.",
-      // techused: [],
-      img: "",
-      // deployed: "", //githubio
+      techused: ['Jest', 'Node.js', 'Inquirer package', 'Object-oriented Programming'],
+      img: svgImage,
+      deployed: "https://watch.screencastify.com/v/9uZtn4KUSjivNhnKdcXo", //githubio
       gitlink: "https://github.com/thompsonholly/logogenerator" //link to files in gh
     },
     {
       id: 4,
       title: 'Pet Space',
       description: "An app to search for a cat or dog using the PetFinder API.",
-      // techused: [],
-
+      techused: ['JavaScript', 'jQuery', 'Bootstrap', 'Third-Party-API'],
+      img: petSpaceImage,
       deployed: "https://nestibry.github.io/pet-space/", //githubio
       gitlink: "https://github.com/nestibry/pet-space" //link to files in gh
     }
@@ -48,7 +52,7 @@ function projectCard() {
       <div className="projectCardContainer">
         {
           projects.map((projectItem) => (
-            <Projectcard  key={projectItem.id} {...projectItem} />
+            <CarouselProjectCard key={projectItem.id} {...projectItem} />
           ))
         }
       </div>
@@ -56,5 +60,4 @@ function projectCard() {
 
   )
 }
-export default projectCard
-// techused = { techused }
+export default carouselProjects

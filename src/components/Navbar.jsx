@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom';
 import Nav from "./Nav";
+import '../App.css'
 
 function Navbar() {
 
 
   return (
 
-    <Nav bg="myColor" variant="dark" sticky="top"
+    <Nav bg="primary" variant="ligh" sticky="top"
       links={[
         <Link key={1} className="nav-link text-light" to="/">
           Home

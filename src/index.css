@@ -1,40 +1,17 @@
-:root {
+#root {
+  font-family: 'Philosopher', sans-serif;
+}
 
-  font-family: 'Montserrat Alternates', sans-serif;
-
+body {
+  /* background-color: #283f3bff; */
+  /* background: rgb(85, 111, 68);
+  background: linear-gradient(158deg, rgba(85, 111, 68, 1) 14%, rgba(149, 191, 116, 1) 26%, rgba(153, 221, 200, 1) 42%, rgba(101, 155, 94, 1) 63%, rgba(40, 63, 59, 1) 78%); */
+  background-image: url(./assets/starryback.jpg);
+  background-size: cover;
   font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  color: whitesmoke !important;
 
-
-  color: whitesmoke;
-  background-color: #283f3bff;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-
-
-h1 {
-  font: 'Montserrat Alternates';
-  font-size: 3.2em;
-  line-height: 1.1;
-  color: whitesmoke;
-}
-
-
-@media (prefers-color-scheme: light) {
-  :root {
-    /* color: #213547; */
-    /* background-color: #ffffff; */
-  }
-
-  a:hover {
-    /* color: #747bff; */
-  }
-
-  button {
-    /* background-color: #f9f9f9; */
-  }
-}
