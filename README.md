@@ -29,7 +29,7 @@ Holly Thompson's Full Stack Developer portfolio, a beginning portfolio that I pl
 ## Usage
 Access the web application here: [Netlify]()
 
-Future employers will view the porftlio and see all of my early work, and continuing skills as a potential employee. 
+Future employers will view the portfolio and see all of my early work, and continuing skills as a potential employee. 
 
 
 ## Tech Featured
@@ -46,7 +46,7 @@ Future employers will view the porftlio and see all of my early work, and contin
 
 [Github Repository](https://github.com/thompsonholly/hollysportfolio) 
 
-[Netlify]() 
+[Netlify Deployed Page](https://main--hollysportfolio.netlify.app/)
 
 ## Credits
 
