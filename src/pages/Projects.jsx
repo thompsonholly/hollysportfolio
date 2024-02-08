@@ -12,18 +12,14 @@ function carouselProjects() {
   const projects = [
     {
       id: 1,
-      title: 'Workday Scheduler',
-      description: "An app of a simple workday schedule for keeping track of daily tasks.",
-      // used <br> to get tech to appear in column list form//
-      techused:
-        ['HTML', <br></br>,
-          'CSS', <br></br>,
-          'jQuery', <br></br>,
-          'JavaScript', <br></br>,
-          'day.js'],
-      img: workdayImage,
-      deployed: "https://thompsonholly.github.io/workdayscheduler2/", //githubio
-      gitlink: "https://github.com/thompsonholly/workdayscheduler2" //link to files in gh
+      title: 'Pet Space',
+      description: "An app to search for a cat or dog using the PetFinder API.",
+      techused: ['JavaScript', <br></br>,
+        'jQuery', <br></br>,
+        'Bootstrap', <br></br>, 'Third-Party-API'],
+      img: petSpaceImage,
+      deployed: "https://nestibry.github.io/pet-space/", //githubio
+      gitlink: "https://github.com/nestibry/pet-space" //link to files in gh
     },
     {
       id: 2,
@@ -55,15 +51,20 @@ function carouselProjects() {
     },
     {
       id: 4,
-      title: 'Pet Space',
-      description: "An app to search for a cat or dog using the PetFinder API.",
-      techused: ['JavaScript', <br></br>,
-        'jQuery', <br></br>,
-        'Bootstrap', <br></br>, 'Third-Party-API'],
-      img: petSpaceImage,
-      deployed: "https://nestibry.github.io/pet-space/", //githubio
-      gitlink: "https://github.com/nestibry/pet-space" //link to files in gh
-    }
+      title: 'Workday Scheduler',
+      description: "An app of a simple workday schedule for keeping track of daily tasks.",
+      // used <br> to get tech to appear in column list form//
+      techused:
+        ['HTML', <br></br>,
+          'CSS', <br></br>,
+          'jQuery', <br></br>,
+          'JavaScript', <br></br>,
+          'day.js'],
+      img: workdayImage,
+      deployed: "https://thompsonholly.github.io/workdayscheduler2/", //githubio
+      gitlink: "https://github.com/thompsonholly/workdayscheduler2" //link to files in gh
+    },
+
   ]
   return (
     <section>

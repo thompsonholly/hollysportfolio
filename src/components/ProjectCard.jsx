@@ -7,7 +7,7 @@ import '../App.css'
 
 
 
-function ProjectCard({ title, img, techused, description, deployed, gitLink }) {
+function ProjectCard({ title, img, techused, description, deployed, gitlink }) {
 
   return (
 
@@ -27,8 +27,8 @@ function ProjectCard({ title, img, techused, description, deployed, gitLink }) {
 
 
       </Card.Body>
-      <button className='deploy-link'><a className='text-decoration-none text-black' href={deployed} target='_blank'>Deployed </a></button>
-      <button className='repo-link' variant='secondary'> <a href={gitLink} target='_blank'>Github Repo </a></button>
+      <button className='deploy-link btn btn-dark mb-3'><a className='text-decoration-none text-black' href={deployed} target='_blank'>Deployed </a></button>
+      <button className='repo-link btn btn-dark mb-3'> <a className='text-decoration-none text-black' href={gitlink} target='_blank'>Github Repo </a></button>
     </Card>
 
   );
