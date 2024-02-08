@@ -33,14 +33,18 @@ main {
 .about-container {
   border: black;
   height: 300px;
-  width: 300px;
+  width: 75%;
+  /* background-color: aqua; */
+  margin: auto;
+  padding-top: 75px;
 }
 
 .about-box {
-
-  /* margin-left: 300px; */
-  display: flex;
-  flex-direction: row;
+  /* margin-right: 50%;
+  margin-left: 50%;
+  align-content: ; */
+  /* display: flex;
+  justify-content: center; */
 }
 
 .navbar {
