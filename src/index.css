@@ -121,11 +121,12 @@ button {
 .deploy-link {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 
 }
 
 .repo-link {
+  margin-top: 2px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
